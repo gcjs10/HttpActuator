@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="httprunner:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28f74851-a71b-4a17-b0fd-4a9fafd7a117" name="Default Changelist" comment="字符处理优化">
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/httprunner.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/GetAnalysisParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/GetParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/Log4jUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/MyRuns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/ProducerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/ReceiveCmd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/SearchKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/SendHttp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/SendHttpResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actuator/SocketServer.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SendHttp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2109">
+              <caret line="120" column="137" selection-start-line="120" selection-start-column="93" selection-end-line="120" selection-end-column="137" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SearchKey.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/ProducerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SendHttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/MyRuns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="11" selection-start-line="11" selection-end-line="277" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/GetAnalysisParameter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/GetParameter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/actuator/Log4jUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>needResponse</find>
+      <find>caseId</find>
+      <find>runtimeCaseId</find>
+      <find>resultStrtarget</find>
+      <find>producer</find>
+      <find>jp</find>
+      <find>beginTime</find>
+      <find>subUserId</find>
+      <find>selector</find>
+      <find>jr</find>
+      <find>result</find>
+      <find>HttpAsyncResponseConsumer</find>
+      <find>httpclient</find>
+      <find>FutureCallback</find>
+      <find>resultstr</find>
+      <find>writer</find>
+      <find>GetJsonString</find>
+      <find>map</find>
+      <find>resultStr</find>
+      <find>jsonstr</find>
+      <find>hraderkey</find>
+      <find>expr</find>
+      <find>isSuccess</find>
+      <find>GetJson</find>
+      <find>SYs</find>
+      <find>displaystr1</find>
+      <find>body</find>
+      <find>displaystr</find>
+      <find>JsonParser</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/listener/ListenerTest.java" />
+        <option value="$PROJECT_DIR$/src/listener/StateManager.java" />
+        <option value="$PROJECT_DIR$/src/listener/SleepListener.java" />
+        <option value="$PROJECT_DIR$/src/listener/WakeListener.java" />
+        <option value="$PROJECT_DIR$/src/listener/ActionEnum.java" />
+        <option value="$PROJECT_DIR$/src/listener/StateEvent.java" />
+        <option value="$PROJECT_DIR$/src/listener/testa.java" />
+        <option value="$PROJECT_DIR$/src/listener/TcpClient.java" />
+        <option value="$PROJECT_DIR$/src/listener/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/listener/client.java" />
+        <option value="$PROJECT_DIR$/src/listener/TCPServer.java" />
+        <option value="$PROJECT_DIR$/src/listener/server.java" />
+        <option value="$PROJECT_DIR$/src/listener/sendtest.java" />
+        <option value="$PROJECT_DIR$/src/listener/test.java" />
+        <option value="$PROJECT_DIR$/src/listener/mongodb.java" />
+        <option value="$PROJECT_DIR$/src/listener/Client.java" />
+        <option value="$PROJECT_DIR$/src/listener/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/listener/KafkaHandle.java" />
+        <option value="$PROJECT_DIR$/src/listener/MyProducer.java" />
+        <option value="$PROJECT_DIR$/src/listener/test2.java" />
+        <option value="$PROJECT_DIR$/src/listener/MongoHandle.java" />
+        <option value="$PROJECT_DIR$/src/listener/StateListener.java" />
+        <option value="$PROJECT_DIR$/src/listener/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/src/listener/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/listener/GetParameter.java" />
+        <option value="$PROJECT_DIR$/src/listener/GetAnalysisParameter.java" />
+        <option value="$PROJECT_DIR$/src/actuator/Clientbakup.java" />
+        <option value="$PROJECT_DIR$/src/actuator/Client.java" />
+        <option value="$PROJECT_DIR$/src/actuator/SocketServerbak.java" />
+        <option value="$PROJECT_DIR$/src/actuator/GetParameter.java" />
+        <option value="$PROJECT_DIR$/src/actuator/MongoHandle.java" />
+        <option value="$PROJECT_DIR$/src/actuator/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/src/actuator/JavaNio.java" />
+        <option value="$PROJECT_DIR$/src/actuator/GetAnalysisParameter.java" />
+        <option value="$PROJECT_DIR$/src/actuator/MongoDBUtil.java" />
+        <option value="$PROJECT_DIR$/src/actuator/test.java" />
+        <option value="$PROJECT_DIR$/src/actuator/Main.java" />
+        <option value="$PROJECT_DIR$/src/actuator/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/actuator/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/actuator/SendHttp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/ReceiveCmd.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/SendHttp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/SendHttpResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/Log4jUtil.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/GetAnalysisParameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/actuator/MyRuns.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="httprunner" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="httprunner" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="httprunner" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="4" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="httprunner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="httprunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="httprunner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559100434833" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48372093" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="actuator" />
+      <recent name="listener" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\httprunner\src\actuator" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SocketServer">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actuator.Main" />
+      <module name="httprunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actuator.NIOServer" />
+      <module name="httprunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actuator.ProducerDemo" />
+      <module name="httprunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actuator.SocketServer" />
+      <module name="httprunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="actuator.test" />
+      <module name="httprunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SocketServer" />
+        <item itemvalue="Application.ProducerDemo" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NIOServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28f74851-a71b-4a17-b0fd-4a9fafd7a117" name="Default Changelist" comment="" />
+      <created>1557732088121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557732088121</updated>
+      <workItem from="1557732094018" duration="15170000" />
+      <workItem from="1557800347277" duration="232510000" />
+      <workItem from="1558663048326" duration="70255000" />
+      <workItem from="1559095542033" duration="4872000" />
+      <workItem from="1565141799491" duration="19702000" />
+      <workItem from="1565578383355" duration="4363000" />
+      <workItem from="1565674643255" duration="2448000" />
+      <workItem from="1565946253773" duration="635000" />
+    </task>
+    <task id="LOCAL-00001" summary="add pom">
+      <created>1559096057980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559096057981</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add pom">
+      <created>1559096072672</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559096072672</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add pom">
+      <created>1559098423901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559098423901</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add pom">
+      <created>1559098642899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559098642899</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add example">
+      <created>1559100333463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559100333463</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add example">
+      <created>1559100389935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559100389935</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add example">
+      <created>1559104995411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559104995411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add example">
+      <created>1559126765554</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559126765554</updated>
+    </task>
+    <task id="LOCAL-00009" summary="字符处理优化">
+      <created>1565141986376</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565141986376</updated>
+    </task>
+    <task id="LOCAL-00010" summary="字符处理优化">
+      <created>1565142521945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565142521945</updated>
+    </task>
+    <task id="LOCAL-00011" summary="字符处理优化">
+      <created>1565161925381</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565161925381</updated>
+    </task>
+    <task id="LOCAL-00012" summary="字符处理优化">
+      <created>1565162268503</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565162268503</updated>
+    </task>
+    <task id="LOCAL-00013" summary="字符处理优化">
+      <created>1565165222218</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1565165222218</updated>
+    </task>
+    <task id="LOCAL-00014" summary="字符处理优化">
+      <created>1565168031592</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565168031592</updated>
+    </task>
+    <task id="LOCAL-00015" summary="字符处理优化">
+      <created>1565170801483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565170801483</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="382287000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989339" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.45149255" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.478145" weight="0.4002169" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.54850745" side_tool="true" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.45415777" weight="0.17895879" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.26839378" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.10714286" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pom" />
+    <MESSAGE value="add example" />
+    <MESSAGE value="字符处理优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符处理优化" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/actuator/TCPClient.java" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar!/com/google/gson/internal/Streams.class" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar!/com/google/gson/JsonObject.class" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar!/com/google/gson/internal/bind/TypeAdapters.class" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar!/com/google/gson/JsonElement.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/net/URL.java" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpclient-4.5.jar!/org/apache/http/client/methods/HttpPost.class" />
+    <entry file="file://$PROJECT_DIR$/src/actuator/ConsumerDemo.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ExecutorService.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/httprunner/actuator/ProducerDemo.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/httprunner/actuator/SocketServer.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/requests-4.17.0.jar!/net/dongliu/requests/Requests.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/httprunner/actuator/SendHttp.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/httprunner/actuator/GetAnalysisParameter.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Runnable.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/channels/SelectionKey.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/channels/SelectableChannel.java" />
+    <entry file="file://$PROJECT_DIR$/src/actuator/Client.java" />
+    <entry file="file://$PROJECT_DIR$/src/actuator/HotClickAsync.java" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpcore-4.4.1.jar!/org/apache/http/HttpResponse.class" />
+    <entry file="file://$PROJECT_DIR$/src/actuator/Main.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Throwable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/MongoDBUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/MongoHandle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/JavaNio.java" />
+    <entry file="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/requests-4.17.0.jar!/net/dongliu/requests/RequestBuilder.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/dongliu/requests/5.0.7/requests-5.0.7.jar!/net/dongliu/requests/Response.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/net/dongliu/requests/5.0.7/requests-5.0.7.jar!/net/dongliu/requests/RequestBuilder.class" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonObject.class" />
+    <entry file="file://$PROJECT_DIR$/httprunner.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/internal/bind/TypeAdapters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="697" selection-start-line="697" selection-end-line="697" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5-sources.jar!/com/google/gson/internal/Streams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="627" column="12" selection-start-line="627" selection-start-column="12" selection-end-line="627" selection-end-column="12" />
+          <folding>
+            <element signature="e#25340#25341#0" expanded="true" />
+            <element signature="e#25379#25380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14725">
+          <caret line="833" column="19" selection-start-line="833" selection-start-column="19" selection-end-line="833" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/ReceiveCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SendHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="120" column="137" selection-start-line="120" selection-start-column="93" selection-end-line="120" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SearchKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SendHttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/MyRuns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" selection-start-line="11" selection-end-line="277" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/GetAnalysisParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/GetParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/Log4jUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/actuator/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>httprunner:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>httprunner</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>httplib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48372093" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

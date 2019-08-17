@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="httprunner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/httprunner_jar</output-path>
+    <root id="archive" name="httprunner.jar">
+      <element id="module-output" name="httprunner" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpclient-4.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpcore-4.4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/android-json-0.0.20131108.vaadin1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/requests-4.17.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/mongo-java-driver-3.4.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/slf4j-log4j12-1.7.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/slf4j-api-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/kafka-clients-2.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-jexl-2.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-jexl-2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/libs.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/ezmorph-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/commons-lang-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/json-lib-2.4-jdk15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/commons-logging-1.0.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/commons-httpclient-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/commons-beanutils-1.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/新建文件夹/commons-collections-3.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="httplib" />
+    </root>
+  </artifact>
+</component>

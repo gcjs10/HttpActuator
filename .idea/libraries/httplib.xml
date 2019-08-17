@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="httplib">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/新建文件夹" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpclient-4.5.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpcore-4.4.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/gson-2.8.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/android-json-0.0.20131108.vaadin1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/requests-4.17.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/mongo-java-driver-3.4.3.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/slf4j-log4j12-1.7.26.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/log4j-1.2.17.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/kafka-clients-2.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-jexl-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/commons-jexl-2.0.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/新建文件夹/httpclient-4.5所需jar包/httpasyncclient-4.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/新建文件夹" recursive="false" />
+  </library>
+</component>
